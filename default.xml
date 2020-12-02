@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<manifest>
+	<remote name="PCIe" fetch="git://github.com/HailiangQin/PCIe" revision="master" />
+	<project path="import" name="PCIe" />
+	<remote name="NoC" fetch="git://github.com/HailiangQin/NoC" revision="master" />
+	<project path="import" name="NoC" />	
+</manifest>
