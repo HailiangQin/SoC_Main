@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
-	<remote name="soc" fetch="git://github.com/HailiangQin" revision="refs/heads/master" />
+	<remote name="soc" fetch="git://github.com/HailiangQin" revision="master" />
 	<project path="import/PCIe" name="PCIe" remote="soc" />
 	<project path="import/NoC" name="NoC" remote="soc" />	
 </manifest>
