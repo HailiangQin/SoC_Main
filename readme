@@ -1,0 +1,30 @@
+readme for repo demo
+
+
+0. 在home目录下克隆repo执行文件
+   $cd 
+   $git clone git://github.com/android/tools_repo git-repo
+   $mkdir ~/.bin
+   $cp ~/git-repo/repo ~/.bin/
+   $export PATH=~/.bin:$PATH
+
+
+1.  创建工作目录
+   $mkdir ~/SoC
+
+
+2. 原生克隆整管理IP git的manifest
+    $cd ~/SoC
+    $git clone git://github.com/HailiangQin/manifest
+
+
+3. 初始化管理IP git的repo
+    $repo init -u /home/hqin/SoC/manifest --repo-u=/home/hqin/git-repo
+
+
+4. 使用repo sync克隆IP的git
+    $repo sync
+
+
+5. 启动repo
+    $repo start master --all
